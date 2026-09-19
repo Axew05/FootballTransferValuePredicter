@@ -1,0 +1,17 @@
+# virtual environment
+.venv/
+
+# secrets
+.env
+
+# data (large, re-downloadable)
+data/raw/
+data/processed/
+
+# trained models
+*.joblib
+
+# python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
