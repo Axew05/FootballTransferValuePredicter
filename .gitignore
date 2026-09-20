@@ -5,8 +5,8 @@
 .env
 
 # data (large, re-downloadable)
-data/raw/
-data/processed/
+data-raw/
+data-processed/
 
 # trained models
 *.joblib
