@@ -9,7 +9,30 @@
   </head>
   <body>
     <main>
-        <h1>Welcome to My Website</h1>  
+        <h1>Welcome to My Website</h1>
+        <form>
+          <label>Age<input type="number"></label>
+          <label>Position
+            <select>
+              <option value="">--please choose an option--</option>
+              <option value="GK">GK</option>
+              <option value="RB">RB</option>
+              <option value="LB">LB</option>
+              <option value="CB">CB</option>
+              <option value="CDM">CDM</option>
+              <option value="CM">CM</option>
+              <option value="CAM">CAM</option>
+              <option value="RW">RW</option>
+              <option value="LW">LW</option>
+              <option value="ST">ST</option>
+            </select>
+          </label>
+          <label>Appearances<input type="number"></label>
+          <label>Minutes played<input type="number"></label>
+          <label>Goals<input type="number"></label>
+          <label>Assists<input type="number"></label>
+          <label>Yellow/red cards<input type="number"></label>
+        </form>
     </main>
     <script src="{{ url_for('static', filename='app.js')}}"></script>
   </body>
